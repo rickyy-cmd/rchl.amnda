@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan untuk Rachel,Perasaan aku yang harus aku ungkapin</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f3f8;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .heart {
+            font-size: 50px;
+            color: #e63946;
+            animation: heartbeat 1.5s infinite;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 1.2em;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>Hai, Rachel😊?</h1>
+        <p class="message">
+            Gimana hari harinya? gimana kuliahnya? baik baik aja kan kamu? sudah nemu yang baru kah kamu, maaf kalo aku masih ganggu kamu
+        <p class="message">
+            Maaf aku gabisa nahan kangen ke kamu jadi aku buatin html ini untuk kamu
+        <p class="message">Jujur aku selalu keinget kamu setiap aku berangkat ke kantor,pulang dari kantor, setiap buka wa selalu kaya ada yang kurang</p>
+        <p class="massege">Yahh aku kangen dengan notif mu,kata kata dari kamu "kok kamu gitu", ya mungkin yang gabakal prnh aku denger lagi</p>
+        <p class="massege">Entah apa yang aku selalu bayangin tentang kamu</p>
+        <p class="message">
+            Mungkin kita sudah berpisah, tapi rasa ini tetap ada. Aku harap kamu selalu bahagia di sana.
+        </p>
+        <p>Ricky Hermawan, <br><strong>Forr Rachel Amanda</strong></p>
+        <p>😊🌹</p>
+    </div>
+</body>
+</html>
